@@ -23,6 +23,7 @@
     p { margin: 0; }
     p + p { margin-top: 8px; }
     .leise { color: var(--grau); font-size: 14px; overflow-wrap: anywhere; }
+    .app { display: inline-block; margin-right: 4px; padding: 0 7px; border: 1px solid var(--linie); border-radius: 999px; font-size: 12px; font-weight: 700; color: var(--grau); }
     address { font-style: normal; }
   </style>
 </head>
@@ -37,7 +38,8 @@
     </section>
     <section>
       <h2>DATOS GUARDADOS LOCALMENTE</h2>
-      <p>Tu nombre, ajustes, estadísticas, puntos y progreso de entrenamiento. Puedes restablecerlo todo cuando quieras o eliminarlo por completo borrando la app.</p>
+      <p><span class="app">iOS</span> Nombre y foto de perfil, tus diseños de canicas y tablero, ajustes, estadísticas y partidas en curso. Puedes cambiar todo esto en la app en cualquier momento o eliminarlo por completo borrando la app.</p>
+      <p><span class="app">Android</span> Tu nombre, ajustes, estadísticas, puntos y progreso de entrenamiento. Puedes restablecerlo todo cuando quieras o eliminarlo por completo borrando la app.</p>
     </section>
     <section>
       <h2>EN LÍNEA Y CUENTA</h2>
@@ -53,15 +55,20 @@
       <p>Tus datos de inicio de sesión se guardan cifrados en el almacenamiento seguro de tu dispositivo para que sigas conectado. Los avisos de jugadas, mensajes y torneos los crea la propia app en tu dispositivo; no se usa ningún servicio push.</p>
     </section>
     <section>
-      <p>Cuando envías comentarios, se abre tu app de correo con un borrador preparado. Solo se transmite lo que tú mismo envías.</p>
-      <p class="leise">Si tienes preguntas sobre privacidad, puedes contactarnos en la dirección de correo indicada en el aviso legal.</p>
-      <p class="leise">Actualizado: noviembre de 2026</p>
+      <h2>COMENTARIOS POR CORREO</h2>
+      <p><span class="app">iOS</span> Al enviar comentarios se abre tu app de correo con un borrador preparado. Solo se transmite lo que tú mismo envías, junto con la versión de la app y de iOS para la búsqueda de errores.</p>
+      <p><span class="app">Android</span> Cuando envías comentarios, se abre tu app de correo con un borrador preparado. Solo se transmite lo que tú mismo envías.</p>
+    </section>
+    <section>
+      <h2>CONTACTO</h2>
+      <p>Si tienes preguntas sobre privacidad, puedes contactarnos en la dirección de correo indicada en el aviso legal.</p>
     </section>
     <section>
       <address>
         <p>Lorenz Berntsen<br>Fasaneriestr. 3b<br>80636 München</p>
         <p><a href="mailto:lorenzberntsen@gmx.de">lorenzberntsen@gmx.de</a></p>
       </address>
+      <p class="leise">Actualizado: noviembre de 2026</p>
     </section>
   </main>
 </body>

@@ -23,6 +23,7 @@
     p { margin: 0; }
     p + p { margin-top: 8px; }
     .leise { color: var(--grau); font-size: 14px; overflow-wrap: anywhere; }
+    .app { display: inline-block; margin-right: 4px; padding: 0 7px; border: 1px solid var(--linie); border-radius: 999px; font-size: 12px; font-weight: 700; color: var(--grau); }
     address { font-style: normal; }
   </style>
 </head>
@@ -37,7 +38,8 @@
     </section>
     <section>
       <h2>DATI SALVATI IN LOCALE</h2>
-      <p>Il tuo nome, le impostazioni, le statistiche, i punti e i progressi dell’allenamento. Puoi azzerare tutto in qualsiasi momento o eliminarlo completamente cancellando l’app.</p>
+      <p><span class="app">iOS</span> Nome e immagine del profilo, i tuoi design di biglie e tavolo, impostazioni, statistiche e partite in corso. Puoi modificare tutto questo nell'app in qualsiasi momento o rimuoverlo completamente eliminando l'app.</p>
+      <p><span class="app">Android</span> Il tuo nome, le impostazioni, le statistiche, i punti e i progressi dell’allenamento. Puoi azzerare tutto in qualsiasi momento o eliminarlo completamente cancellando l’app.</p>
     </section>
     <section>
       <h2>ONLINE E ACCOUNT</h2>
@@ -53,15 +55,20 @@
       <p>I tuoi dati di accesso sono conservati cifrati nella memoria protetta del dispositivo, così resti connesso. Le notifiche su mosse, messaggi e tornei sono create dall'app stessa sul tuo dispositivo, non viene usato alcun servizio push.</p>
     </section>
     <section>
-      <p>Quando invii un feedback, si apre la tua app di posta con una bozza pronta. Viene trasmesso solo ciò che invii tu.</p>
-      <p class="leise">Per domande sulla privacy puoi raggiungerci all'indirizzo e-mail indicato nelle note legali.</p>
-      <p class="leise">Aggiornato: novembre 2026</p>
+      <h2>FEEDBACK VIA E-MAIL</h2>
+      <p><span class="app">iOS</span> Quando invii un feedback si apre la tua app di posta con una bozza preparata. Viene trasmesso solo ciò che invii tu stesso, integrato con la versione dell'app e di iOS per la diagnosi.</p>
+      <p><span class="app">Android</span> Quando invii un feedback, si apre la tua app di posta con una bozza pronta. Viene trasmesso solo ciò che invii tu.</p>
+    </section>
+    <section>
+      <h2>CONTATTO</h2>
+      <p>Per domande sulla privacy puoi raggiungerci all'indirizzo e-mail indicato nelle note legali.</p>
     </section>
     <section>
       <address>
         <p>Lorenz Berntsen<br>Fasaneriestr. 3b<br>80636 München</p>
         <p><a href="mailto:lorenzberntsen@gmx.de">lorenzberntsen@gmx.de</a></p>
       </address>
+      <p class="leise">Aggiornato: novembre 2026</p>
     </section>
   </main>
 </body>

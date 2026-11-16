@@ -23,6 +23,7 @@
     p { margin: 0; }
     p + p { margin-top: 8px; }
     .leise { color: var(--grau); font-size: 14px; overflow-wrap: anywhere; }
+    .app { display: inline-block; margin-right: 4px; padding: 0 7px; border: 1px solid var(--linie); border-radius: 999px; font-size: 12px; font-weight: 700; color: var(--grau); }
     address { font-style: normal; }
   </style>
 </head>
@@ -37,7 +38,8 @@
     </section>
     <section>
       <h2>LOKAL GESPEICHERTE DATEN</h2>
-      <p>Dein Name, deine Einstellungen, Statistiken, Punkte und der Trainingsfortschritt. Du kannst all das jederzeit zurücksetzen oder durch Löschen der App vollständig entfernen.</p>
+      <p><span class="app">iOS</span> Profilname und Profilbild, deine Kugel- und Brett-Gestaltung, Einstellungen, Statistiken sowie laufende Partien. Du kannst all das jederzeit in der App ändern oder durch Löschen der App vollständig entfernen.</p>
+      <p><span class="app">Android</span> Dein Name, deine Einstellungen, Statistiken, Punkte und der Trainingsfortschritt. Du kannst all das jederzeit zurücksetzen oder durch Löschen der App vollständig entfernen.</p>
     </section>
     <section>
       <h2>ONLINE UND KONTO</h2>
@@ -53,15 +55,20 @@
       <p>Deine Anmeldedaten liegen verschlüsselt im geschützten Speicher deines Geräts, damit du angemeldet bleibst. Hinweise auf Züge, Nachrichten und Turniere erzeugt die App selbst auf deinem Gerät, ein Push-Dienst wird nicht verwendet.</p>
     </section>
     <section>
-      <p>Wenn du Feedback sendest, öffnet sich deine Mail-App mit einem vorbereiteten Entwurf. Übertragen wird nur, was du selbst abschickst.</p>
-      <p class="leise">Bei Fragen zum Datenschutz erreichst du uns unter der im Impressum angegebenen E-Mail-Adresse.</p>
-      <p class="leise">Stand: November 2026</p>
+      <h2>FEEDBACK PER E-MAIL</h2>
+      <p><span class="app">iOS</span> Wenn du Feedback sendest, öffnet sich deine Mail-App mit einem vorbereiteten Entwurf. Übertragen wird nur, was du selbst abschickst, ergänzt um App- und iOS-Version zur Fehlersuche.</p>
+      <p><span class="app">Android</span> Wenn du Feedback sendest, öffnet sich deine Mail-App mit einem vorbereiteten Entwurf. Übertragen wird nur, was du selbst abschickst.</p>
+    </section>
+    <section>
+      <h2>KONTAKT</h2>
+      <p>Bei Fragen zum Datenschutz erreichst du uns unter der im Impressum angegebenen E-Mail-Adresse.</p>
     </section>
     <section>
       <address>
         <p>Lorenz Berntsen<br>Fasaneriestr. 3b<br>80636 München</p>
         <p><a href="mailto:lorenzberntsen@gmx.de">lorenzberntsen@gmx.de</a></p>
       </address>
+      <p class="leise">Stand: November 2026</p>
     </section>
   </main>
 </body>

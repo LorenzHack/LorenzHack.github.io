@@ -23,6 +23,7 @@
     p { margin: 0; }
     p + p { margin-top: 8px; }
     .leise { color: var(--grau); font-size: 14px; overflow-wrap: anywhere; }
+    .app { display: inline-block; margin-right: 4px; padding: 0 7px; border: 1px solid var(--linie); border-radius: 999px; font-size: 12px; font-weight: 700; color: var(--grau); }
     address { font-style: normal; }
   </style>
 </head>
@@ -37,7 +38,8 @@
     </section>
     <section>
       <h2>DATA STORED LOCALLY</h2>
-      <p>Your name, settings, statistics, points and training progress. You can reset all of it at any time or remove it completely by deleting the app.</p>
+      <p><span class="app">iOS</span> Profile name and picture, your marble and board designs, settings, statistics and games in progress. You can change all of this in the app at any time or remove it completely by deleting the app.</p>
+      <p><span class="app">Android</span> Your name, settings, statistics, points and training progress. You can reset all of it at any time or remove it completely by deleting the app.</p>
     </section>
     <section>
       <h2>ONLINE AND ACCOUNT</h2>
@@ -53,15 +55,20 @@
       <p>Your sign-in details are kept encrypted in your device's secure storage so that you stay signed in. Notifications about moves, messages and tournaments are created by the app itself on your device; no push service is used.</p>
     </section>
     <section>
-      <p>When you send feedback, your mail app opens with a prepared draft. Only what you send yourself is transmitted.</p>
-      <p class="leise">If you have questions about privacy, you can reach us at the email address given in the legal notice.</p>
-      <p class="leise">Last updated: November 2026</p>
+      <h2>FEEDBACK BY EMAIL</h2>
+      <p><span class="app">iOS</span> When you send feedback, your mail app opens with a prepared draft. Only what you send yourself is transmitted, supplemented with the app and iOS version for troubleshooting.</p>
+      <p><span class="app">Android</span> When you send feedback, your mail app opens with a prepared draft. Only what you send yourself is transmitted.</p>
+    </section>
+    <section>
+      <h2>CONTACT</h2>
+      <p>If you have questions about privacy, you can reach us at the email address given in the legal notice.</p>
     </section>
     <section>
       <address>
         <p>Lorenz Berntsen<br>Fasaneriestr. 3b<br>80636 München</p>
         <p><a href="mailto:lorenzberntsen@gmx.de">lorenzberntsen@gmx.de</a></p>
       </address>
+      <p class="leise">Last updated: November 2026</p>
     </section>
   </main>
 </body>

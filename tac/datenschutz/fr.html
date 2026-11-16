@@ -23,6 +23,7 @@
     p { margin: 0; }
     p + p { margin-top: 8px; }
     .leise { color: var(--grau); font-size: 14px; overflow-wrap: anywhere; }
+    .app { display: inline-block; margin-right: 4px; padding: 0 7px; border: 1px solid var(--linie); border-radius: 999px; font-size: 12px; font-weight: 700; color: var(--grau); }
     address { font-style: normal; }
   </style>
 </head>
@@ -37,7 +38,8 @@
     </section>
     <section>
       <h2>DONNÉES STOCKÉES EN LOCAL</h2>
-      <p>Ton nom, tes réglages, statistiques, points et ta progression d’entraînement. Tu peux tout réinitialiser à tout moment ou le supprimer entièrement en supprimant l’app.</p>
+      <p><span class="app">iOS</span> Nom et photo de profil, tes designs de billes et de plateau, réglages, statistiques et parties en cours. Tu peux modifier tout cela à tout moment dans l'app ou le supprimer complètement en désinstallant l'app.</p>
+      <p><span class="app">Android</span> Ton nom, tes réglages, statistiques, points et ta progression d’entraînement. Tu peux tout réinitialiser à tout moment ou le supprimer entièrement en supprimant l’app.</p>
     </section>
     <section>
       <h2>EN LIGNE ET COMPTE</h2>
@@ -53,15 +55,20 @@
       <p>Tes identifiants sont conservés chiffrés dans le stockage sécurisé de ton appareil, pour que tu restes connecté. Les notifications de coups, de messages et de tournois sont créées par l'app elle-même sur ton appareil, aucun service push n'est utilisé.</p>
     </section>
     <section>
-      <p>Quand tu envoies un retour, ton app de messagerie s’ouvre avec un brouillon prêt. Seul ce que tu envoies toi-même est transmis.</p>
-      <p class="leise">Pour toute question sur la confidentialité, tu peux nous joindre à l'adresse e-mail indiquée dans les mentions légales.</p>
-      <p class="leise">Mise à jour : novembre 2026</p>
+      <h2>RETOURS PAR E-MAIL</h2>
+      <p><span class="app">iOS</span> Quand tu envoies un retour, ton app de messagerie s'ouvre avec un brouillon préparé. Seul ce que tu envoies toi-même est transmis, complété par la version de l'app et d'iOS pour le diagnostic.</p>
+      <p><span class="app">Android</span> Quand tu envoies un retour, ton app de messagerie s’ouvre avec un brouillon prêt. Seul ce que tu envoies toi-même est transmis.</p>
+    </section>
+    <section>
+      <h2>CONTACT</h2>
+      <p>Pour toute question sur la confidentialité, tu peux nous joindre à l'adresse e-mail indiquée dans les mentions légales.</p>
     </section>
     <section>
       <address>
         <p>Lorenz Berntsen<br>Fasaneriestr. 3b<br>80636 München</p>
         <p><a href="mailto:lorenzberntsen@gmx.de">lorenzberntsen@gmx.de</a></p>
       </address>
+      <p class="leise">Mise à jour : novembre 2026</p>
     </section>
   </main>
 </body>

@@ -23,6 +23,7 @@
     p { margin: 0; }
     p + p { margin-top: 8px; }
     .leise { color: var(--grau); font-size: 14px; overflow-wrap: anywhere; }
+    .app { display: inline-block; margin-right: 4px; padding: 0 7px; border: 1px solid var(--linie); border-radius: 999px; font-size: 12px; font-weight: 700; color: var(--grau); }
     address { font-style: normal; }
   </style>
 </head>
@@ -37,7 +38,8 @@
     </section>
     <section>
       <h2>LOKALT SPARAD DATA</h2>
-      <p>Ditt namn, dina inställningar, statistik, poäng och träningsframsteg. Du kan när som helst återställa allt eller ta bort det helt genom att radera appen.</p>
+      <p><span class="app">iOS</span> Profilnamn och profilbild, dina kul- och brädmotiv, inställningar, statistik samt pågående partier. Allt detta kan du när som helst ändra i appen eller ta bort helt genom att radera appen.</p>
+      <p><span class="app">Android</span> Ditt namn, dina inställningar, statistik, poäng och träningsframsteg. Du kan när som helst återställa allt eller ta bort det helt genom att radera appen.</p>
     </section>
     <section>
       <h2>ONLINE OCH KONTO</h2>
@@ -53,15 +55,20 @@
       <p>Dina inloggningsuppgifter lagras krypterat i enhetens skyddade lagring så att du förblir inloggad. Aviseringar om drag, meddelanden och turneringar skapar appen själv på din enhet, ingen push-tjänst används.</p>
     </section>
     <section>
-      <p>När du skickar feedback öppnas din e-postapp med ett förberett utkast. Bara det du själv skickar överförs.</p>
-      <p class="leise">Vid frågor om integritet når du oss på e-postadressen som anges i den juridiska informationen.</p>
-      <p class="leise">Uppdaterad: november 2026</p>
+      <h2>FEEDBACK VIA E-POST</h2>
+      <p><span class="app">iOS</span> När du skickar feedback öppnas din e-postapp med ett förberett utkast. Endast det du själv skickar överförs, kompletterat med app- och iOS-version för felsökning.</p>
+      <p><span class="app">Android</span> När du skickar feedback öppnas din e-postapp med ett förberett utkast. Bara det du själv skickar överförs.</p>
+    </section>
+    <section>
+      <h2>KONTAKT</h2>
+      <p>Vid frågor om integritet når du oss på e-postadressen som anges i den juridiska informationen.</p>
     </section>
     <section>
       <address>
         <p>Lorenz Berntsen<br>Fasaneriestr. 3b<br>80636 München</p>
         <p><a href="mailto:lorenzberntsen@gmx.de">lorenzberntsen@gmx.de</a></p>
       </address>
+      <p class="leise">Uppdaterad: november 2026</p>
     </section>
   </main>
 </body>
