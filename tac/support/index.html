@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TAC · Hilfe und Kontakt</title>
+  <style>
+    :root { --grund: #F1ECDF; --papier: #FAF8F2; --tinte: #14181F; --grau: #6E7382; --linie: #D9D3C3; --blau: #2B5FAA; }
+    @media (prefers-color-scheme: dark) {
+      :root { --grund: #12151C; --papier: #1B202A; --tinte: #ECE8DC; --grau: #9AA0AA; --linie: #2E3440; --blau: #8DB4EE; }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--grund); color: var(--tinte); font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", sans-serif; }
+    main { max-width: 680px; margin: 0 auto; padding: 32px 16px 56px; }
+    .kicker { margin: 0; font-size: 12px; font-weight: 700; letter-spacing: 2.5px; color: var(--grau); }
+    h1 { margin: 2px 0 12px; font: italic 700 34px/1.15 Georgia, "Times New Roman", serif; }
+    nav { display: flex; flex-wrap: wrap; gap: 4px 14px; margin-bottom: 22px; font-size: 13px; }
+    a { color: var(--blau); }
+    nav a { text-decoration: none; }
+    nav b { font-weight: 700; }
+    section { margin: 0 0 12px; padding: 16px 18px; border: 1px solid var(--linie); border-radius: 12px; background: var(--papier); }
+    h2 { margin: 0 0 8px; font-size: 12px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--grau); }
+    h3 { margin: 12px 0 2px; font-size: 16px; }
+    h3:first-of-type { margin-top: 0; }
+    p { margin: 0; }
+    p + p { margin-top: 8px; }
+    .leise { color: var(--grau); font-size: 14px; overflow-wrap: anywhere; }
+  </style>
+</head>
+<body>
+<main>
+  <p class="kicker">TAC · APP</p>
+  <h1>Hilfe und Kontakt</h1>
+  <nav><b>Deutsch</b> <a href="#en">English</a> <a href="../datenschutz/">Datenschutz</a> <a href="../konto-loeschen/">Konto löschen</a></nav>
+
+  <section>
+    <h2>Kontakt</h2>
+    <p>Fragen, Fehler oder Ideen zur App TAC (iPhone und Android)? Schreib an <a href="mailto:lorenz.tac.app@gmail.com?subject=TAC%20App">lorenz.tac.app@gmail.com</a>. Am schnellsten geht es aus der App heraus: Einstellungen › „Feedback direkt an die Entwickler“, dann sind Gerät und App-Version gleich dabei.</p>
+    <p class="leise">Hilfreich bei Fehlern: was du gemacht hast, was passiert ist, ein Bildschirmfoto und bei Online-Partien dein Benutzername.</p>
+  </section>
+
+  <section>
+    <h2>Häufige Fragen</h2>
+    <h3>Wie lerne ich die Regeln?</h3>
+    <p>Im Training der App: kurze Lektionen und Aufgaben direkt am Brett, vom ersten Zug bis zur Sieben, zum Teufel und zum Engel.</p>
+    <h3>Brauche ich ein Konto?</h3>
+    <p>Nein. Gegen die KI, im Training und zusammen an einem Gerät spielst du ohne Konto. Nur für das Online-Spiel brauchst du ein Konto bei Tac-With-Bug. Ein vorhandenes Konto aus dem Browser funktioniert auch in der App.</p>
+    <h3>Ich habe mein Passwort vergessen.</h3>
+    <p>Tippe bei der Anmeldung in der App auf „Passwort vergessen“ oder nutze die Funktion auf <a href="https://game.tac-with-bug.org">game.tac-with-bug.org</a>. Du bekommst einen Link an die Adresse deines Kontos.</p>
+    <h3>Mein Spielstand ist auf dem neuen Gerät weg.</h3>
+    <p>Ohne Konto bleibt alles auf dem Gerät. Mit Konto meldest du dich auf dem neuen Gerät an, dann kommen Statistik, Erfolge und Training mit, sobald der Spielstand im Konto gesichert ist.</p>
+    <h3>Wie lösche ich mein Konto?</h3>
+    <p>In der App unter Einstellungen › Konto löschen oder wie auf der Seite <a href="../konto-loeschen/">Konto löschen</a> beschrieben.</p>
+  </section>
+
+  <section>
+    <h2>Das Spiel</h2>
+    <p>TAC ist ein Brettspiel der TAC Verlag GmbH, Petershausen. Name, Logo und Gestaltung werden mit Genehmigung des Verlags verwendet. Das Spiel zum Anfassen gibt es im <a href="https://shop.spiel-tac.de">Shop des Verlags</a>.</p>
+  </section>
+
+  <section id="en">
+    <h2>English: help and contact</h2>
+    <p>Questions, bugs or ideas about the TAC app (iPhone and Android)? Write to <a href="mailto:lorenz.tac.app@gmail.com?subject=TAC%20App">lorenz.tac.app@gmail.com</a>, or use Settings › “Feedback straight to the developers” in the app.</p>
+    <p><b>Rules:</b> the training in the app teaches every rule step by step. <b>Account:</b> only needed for online play; an existing Tac-With-Bug account works in the app. <b>Forgot password:</b> tap “Forgot password” when signing in, or use <a href="https://game.tac-with-bug.org">game.tac-with-bug.org</a>. <b>Delete account:</b> Settings › Delete account, or see <a href="../konto-loeschen/#en">delete account</a>.</p>
+    <p class="leise">TAC is a board game by TAC Verlag GmbH, Petershausen, Germany, used with the publisher's permission.</p>
+  </section>
+</main>
+</body>
+</html>
